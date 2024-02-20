@@ -42,7 +42,7 @@ for row_french in column_data_french[1:]:
     individual_row_data_french = [data_french.text.strip() for data_french in row_data_fench]
     length_for_franch = len(df_for_french)
     df_for_french.loc[length_for_franch] = individual_row_data_french
-
+print(df_for_french)
 
 
 #### 3
