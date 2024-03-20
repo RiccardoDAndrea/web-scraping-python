@@ -1,12 +1,14 @@
 # Documentation of the Structure 
 
-In the documentation is all about the Strucute how 
-and were to save files.
+ **In the documentation is all about the Strucute how**
+**and were to save files.**
 
 ## LICENSE: 
 
     File contains the legal terms and conditions governing the use and distribution of your script. It's important for protecting your work and specifying how others can use it.
-
+    - Example : 
+        - Academic Free License v3.0
+        - Apache license 2.0	
 ## .gitignore             
 
     The .gitignore file specifies patterns of files and directories that should be ignored by version control systems like Git. 
@@ -22,7 +24,8 @@ and were to save files.
     understand and contribute to your project.
     Example: Create a Strucuter
 
- ## requirements.txt             
+ ## requirements.txt      
+
     This file lists all the packages and dependencies required by your script. 
     By including this file, you make it easier for others to reproduce your 
     environment and run your script without having to manually install each dependency.
@@ -30,18 +33,19 @@ and were to save files.
     Example 
 
 
-## Strucutre_info.md           
+## Strucutre_info.md  
+       
     This file contains documentation for the structure of your project. 
     It outlines standards and conventions that should be followed in every project, helping maintain consistency and making it easier for developers to understand and navigate the codebase.
 
 ## data              
-    --> external                # Data from third party sources.
+    --> external                Data from third party sources.
 
-    --> interim                 # Intermediate data that has been transformed.
+    --> interim                 Intermediate data that has been transformed.
 
-    -> processed               # The final, canonical data sets for modeling.
+    -> processed                The final, canonical data sets for modeling.
 
-    --> raw                     # The original, immutable data dump.
+    --> raw                     The original, immutable data dump.
 
 ## docs        
 
@@ -52,15 +56,19 @@ and were to save files.
     Trained and serialized models, model predictions, or model summaries
 
 ## notebooks
+
     Jupyter notebooks. Naming convention is a number (for ordering),the creator's initials, and a short `-` delimited description, e.g.`1.0-jqp-initial-data-exploration`.
 
 ## references 
+
     Data dictionaries, manuals, and all other explanatory materials.
 
-## reports            
+## reports  
+
     Figures 
     - Generated graphics and figures to be used in reporting
 ##  Scripts 
+
     Source code for use in this project.
 
 
