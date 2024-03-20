@@ -64,10 +64,10 @@ Also alphabetical orderd
 
             Example:
 
-                - plotly==5.18.0
                 - langchain==0.1.12
                 - nltk==3.8.1
                 - matplotlib==3.8.2
+                - plotly==5.18.0
 
 ## Strucutre_info.md  
        
