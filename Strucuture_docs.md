@@ -117,22 +117,27 @@ It outlines standards and conventions that should be followed in every project, 
     Every Document that is related to the repo.
         
         - Example:
-            > .pdf/.txt
-            >  
+            > .pdf/.txt other formats also
+            > Scientifics paper
+            > Books that helps the repo (O'reilly Spark Introduction)
     
-
-
-
-
-        
-
-## models      
+## Models
 
 - Trained and serialized models, model predictions, or model summaries
 
         Example:
+        
+        - A paper presenting the model summary and output for the model with certain metrics.
+            - Regression R2, adjR2, Correlation Matrix, MSE and more
+            - Deep Learning:
+                - Neural network architecture details (layers, activations, etc.)
+                - Training parameters (optimizer, learning rate, batch size, etc.)
+                - Evaluation metrics (accuracy, precision, recall, F1-score, etc.)
+                - Loss function used
+                - Visualizations (learning curves, confusion matrix, etc.) as a Picture. Format not specified
 
-        > 
+
+
 
 ## notebooks
 
