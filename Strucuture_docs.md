@@ -19,7 +19,7 @@ It typically includes files generated during the development process or sensitiv
 
     - *Everything should be in **alphabetical*** order
 
-    - Every information should be safed as a .json and included in the .gitignore.
+    - Every information (passwords primarly) should be safed as a .json and included in the .gitignore.
 
     - IF we are running a 
         [**Git Action**](https://docs.github.com/de/actions) 
