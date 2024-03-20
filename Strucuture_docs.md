@@ -135,7 +135,7 @@ It outlines standards and conventions that should be followed in every project, 
                 - Evaluation metrics (accuracy, precision, recall, F1-score, etc.)
                 - Loss function 
                 - Visualizations (learning curves, confusion matrix, etc.) 
-                  as a Picture. Format not specified
+                  as a Picture. Format not specified (everything that make sense)
 
 
 
