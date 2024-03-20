@@ -55,7 +55,8 @@ installation instructions, examples, and any other relevant details to help user
 understand and contribute to your project.
 
             Example: 
-                - Create a Strucuter
+
+            > Create a Strucuter
 
  ## requirements.txt      
 
@@ -65,7 +66,8 @@ environment and run your script without having to manually install each dependen
 Also alphabetical orderd
 
         Example:
-         - 
+
+        > 
 
 
 ## Strucutre_info.md  
@@ -74,50 +76,59 @@ Also alphabetical orderd
 It outlines standards and conventions that should be followed in every project, helping maintain consistency and making it easier for developers to understand and navigate the codebase.
 
         Example:
-            - 
+
+        >
 
 ## data              
 
 - external                Data from third party sources.
 
         Example:
-            -  
+
+        >  
 
 - interim                 Intermediate data that has been transformed.
 
         Example:
-            - 
+
+        > 
 
 - processed                The final, canonical data sets for modeling.
 
         Example:
-            -
+
+        >
 
 - raw                     The original, immutable data dump.
 
         Example:
-            - 
+
+        > 
 
 ## docs        
 
 - documentation for you work
 
         Example:
-            - 
+
+        > 
 
 ## models      
 
 - Trained and serialized models, model predictions, or model summaries
 
         Example:
-            - 
+
+        > 
 
 ## notebooks
 
-- Jupyter notebooks. Naming convention is a number (for ordering),the creator's initials, and a short `-` delimited description, e.g.`1.0-jqp-initial-data-exploration`.
+- Jupyter notebooks. Naming convention is a number (for ordering),the creator's initials, and a short `-` delimited description, e.g.
+`1.0-jqp-initial-data-exploration`.
 
         Example:
-            -
+
+        >
 
 ## references 
 
@@ -125,20 +136,24 @@ It outlines standards and conventions that should be followed in every project, 
 
         Example:
 
+        >
+
 ## reports  
 
 - Figures 
     - Generated graphics and figures to be used in reporting
 
             Example:
-                - 
+
+            > 
 
 ##  Scripts 
 
 - Source code for use in this project.
         
         Example:
-            - 
+
+        > 
 
 
 
