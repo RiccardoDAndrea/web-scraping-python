@@ -17,7 +17,7 @@ This file contains the legal terms and conditions governing the use and distribu
 - The .gitignore file specifies patterns of files and directories  that should be ignored by version control systems like Git. 
 It typically includes files generated during the development process or sensitive information that shouldn't be shared publicly, ensuring a cleaner repository. 
 
-     *Everything should be **orderd alphabeticly***
+    - *Everything should be in **alphabetical*** order
 
     - Every information should be safed as a .json and included in the .gitignore.
 
@@ -54,21 +54,19 @@ or detailed, providing information about what your script does, how to use it,
 installation instructions, examples, and any other relevant details to help users 
 understand and contribute to your project.
 
-            Example: 
-
-            > Create a Strucuter
-
  ## requirements.txt      
 
 - This file lists all the packages and dependencies required by your script. 
 By including this file, you make it easier for others to reproduce your 
 environment and run your script without having to manually install each dependency.
 Also alphabetical orderd
+    - *Everything should be in **alphabetical*** order
 
-        Example:
-
-        > 
-
+            Example:
+                - plotly==5.18.0
+                - langchain==0.1.12
+                - nltk==3.8.1
+                - matplotlib==3.8.2
 
 ## Strucutre_info.md  
        
