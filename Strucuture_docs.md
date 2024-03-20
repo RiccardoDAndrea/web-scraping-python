@@ -98,14 +98,33 @@ It outlines standards and conventions that should be followed in every project, 
         > Raw data downloaded directly from the company's servers without any modifications.
 
 
-## docs        
+## Documentation
 
-- documentation for you work, anything that is related to.
-
+- Documentation for your work, anything related to it.
+- The `python_shortcuts.txt` file is included in every repository.
+    - Contains all Python shortcuts helpful for coding (git, pip, conda commands included).
+    
         Example:
-        > the python_shortcuts.txt 
-        > Could me Scientific Papers
-        > PDF, txt - Documents 
+        - create with pip a new venv 
+            
+            `python3 -m venv venv # <- file name`
+
+        - Deleting a branch 
+            
+            `git branch -d <branch>`   
+
+- docs 
+    Every Document that is related to the repo.
+        
+        - Example:
+            > .pdf/.txt
+            >  
+    
+
+
+
+
+        
 
 ## models      
 
