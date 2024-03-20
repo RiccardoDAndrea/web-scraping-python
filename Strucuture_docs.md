@@ -28,22 +28,22 @@ It typically includes files generated during the development process or sensitiv
 
             > Example: 
 
-                > Structure of the .gitignore 
+            > Structure of the .gitignore 
+            
+                # API Keys, 
+                    - <OPENAI_KEY>  
+
+                # Financial numbers,
+                    - <Fiancial_numbers>
                 
-                    # API Keys, 
-                        - <OPENAI_KEY>  
+                # passwords,
+                    - <YOUR_PASSWORD>
 
-                    # Financial numbers,
-                        - <Fiancial_numbers>
-                    
-                    # passwords,
-                        - <YOUR_PASSWORD>
+                # venv,
+                    - <myenv>
 
-                    # venv,
-                        - <myenv>
-
-                    # names
-                        - <names>
+                # names
+                    - <names>
 
             --> (anything were you think that should be a seceret)
 
@@ -54,8 +54,8 @@ or detailed, providing information about what your script does, how to use it,
 installation instructions, examples, and any other relevant details to help users 
 understand and contribute to your project.
 
-        Example: 
-            - Create a Strucuter
+            Example: 
+                - Create a Strucuter
 
  ## requirements.txt      
 
