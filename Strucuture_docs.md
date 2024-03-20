@@ -63,6 +63,7 @@ Also alphabetical orderd
     - *Everything should be in **alphabetical*** order
 
             Example:
+
                 - plotly==5.18.0
                 - langchain==0.1.12
                 - nltk==3.8.1
@@ -73,35 +74,29 @@ Also alphabetical orderd
 - This file contains documentation for the structure of your project. 
 It outlines standards and conventions that should be followed in every project, helping maintain consistency and making it easier for developers to understand and navigate the codebase.
 
-        Example:
 
-        >
+## Data
 
-## data              
-
-- external                Data from third party sources.
+- **external**: Data from third-party sources.
 
         Example:
+        > External data obtained from the US Census Bureau website.
 
-        >  
-
-- interim                 Intermediate data that has been transformed.
-
-        Example:
-
-        > 
-
-- processed                The final, canonical data sets for modeling.
+- **interim**: Intermediate data that has been transformed.
 
         Example:
+        > Cleaned and normalized data after removing duplicates and filling missing values.
 
-        >
-
-- raw                     The original, immutable data dump.
+- **processed**: The final, canonical datasets for modeling.
 
         Example:
+        > Aggregated and feature-engineered datasets ready for machine learning algorithms.
 
-        > 
+- **raw**: The original, immutable data dump.
+
+        Example:
+        > Raw data downloaded directly from the company's servers without any modifications.
+
 
 ## docs        
 
