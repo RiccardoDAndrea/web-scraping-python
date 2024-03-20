@@ -36,6 +36,3 @@ conda list --export > requirements.txt
 ```bash
 cookiecutter https://github.com/drivendata/cookiecutter-data-science
 ```
-
-````markdown
-You can copy and paste the formatted Markdown code above to use it as a reference.

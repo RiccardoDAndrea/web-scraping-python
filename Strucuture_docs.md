@@ -100,11 +100,12 @@ It outlines standards and conventions that should be followed in every project, 
 
 ## docs        
 
-- documentation for you work
+- documentation for you work, anything that is related to.
 
         Example:
-
-        > 
+        > the python_shortcuts.txt 
+        > Could me Scientific Papers
+        > PDF, txt - Documents 
 
 ## models      
 
