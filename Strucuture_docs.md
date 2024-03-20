@@ -15,11 +15,37 @@ This file contains the legal terms and conditions governing the use and distribu
 ## .gitignore             
 
 - The .gitignore file specifies patterns of files and directories  that should be ignored by version control systems like Git. 
-It typically includes files generated during the development process or sensitive information that shouldn't be shared publicly, ensuring a cleaner repository.
+It typically includes files generated during the development process or sensitive information that shouldn't be shared publicly, ensuring a cleaner repository. 
 
-        Example: 
-            - venv, api codes, financial numbers, passwords,names 
-              (anything were you think that should be a seceret)
+     *Everything should be **orderd alphabeticly***
+
+    - Every information should be safed as a .json and included in the .gitignore.
+
+    - IF we are running a 
+        [**Git Action**](https://docs.github.com/de/actions) 
+        the variabels have to saved in a 
+        [Git Seceret](https://docs.github.com/de/actions/security-guides/using-secrets-in-github-actions) 
+
+            > Example: 
+
+                > Structure of the .gitignore 
+                
+                    # API Keys, 
+                        - <OPENAI_KEY>  
+
+                    # Financial numbers,
+                        - <Fiancial_numbers>
+                    
+                    # passwords,
+                        - <YOUR_PASSWORD>
+
+                    # venv,
+                        - <myenv>
+
+                    # names
+                        - <names>
+
+            --> (anything were you think that should be a seceret)
 
 ## README.md
 
