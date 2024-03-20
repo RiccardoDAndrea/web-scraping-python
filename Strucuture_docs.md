@@ -11,8 +11,6 @@ This file contains the legal terms and conditions governing the use and distribu
         - Academic Free License v3.0
         - Apache License 2.0
 
-
-
         
 ## .gitignore             
 
