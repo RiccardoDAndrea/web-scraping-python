@@ -133,8 +133,9 @@ It outlines standards and conventions that should be followed in every project, 
                 - Neural network architecture details (layers, activations, etc.)
                 - Training parameters (optimizer, learning rate, batch size, etc.)
                 - Evaluation metrics (accuracy, precision, recall, F1-score, etc.)
-                - Loss function used
-                - Visualizations (learning curves, confusion matrix, etc.) as a Picture. Format not specified
+                - Loss function 
+                - Visualizations (learning curves, confusion matrix, etc.) 
+                  as a Picture. Format not specified
 
 
 
