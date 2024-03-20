@@ -1,4 +1,4 @@
-# Documentation of the Structure
+# ***Documentation of the Structure***
 
 The documentation covers the structure, detailing how and where files should be saved.
 
@@ -20,9 +20,8 @@ This file contains the legal terms and conditions governing the use and distribu
 It typically includes files generated during the development process or sensitive information that shouldn't be shared publicly, ensuring a cleaner repository.
 
         Example: 
-
-            - api codes, financial numbers, passwords, 
-              names (anything were you think that should be a seceret)
+            - venv, api codes, financial numbers, passwords,names 
+              (anything were you think that should be a seceret)
 
 ## README.md
 
@@ -84,7 +83,7 @@ It outlines standards and conventions that should be followed in every project, 
 
 ## models      
 
-    Trained and serialized models, model predictions, or model summaries
+- Trained and serialized models, model predictions, or model summaries
 
         Example:
             - 
