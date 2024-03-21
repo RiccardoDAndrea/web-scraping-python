@@ -147,7 +147,9 @@ It outlines standards and conventions that should be followed in every project, 
 
         Example:
 
-        >
+        > A Notebook to train methods, classes, function and so on. So we dont do it on the actual Main Script. To preventing breaking the Code.
+        Everthingy that is related to test the code if we have issues how to implemented in the src/.py file.
+    
 
 ## references 
 
@@ -155,24 +157,68 @@ It outlines standards and conventions that should be followed in every project, 
 
         Example:
 
-        >
+        > A Code from a other Person. 
+        > A Github Fork.
+        > Anything that is useable for the Code that 
+          we can Copy or adjust for our code.
 
-## reports  
+## Reports  
 
 - Figures 
     - Generated graphics and figures to be used in reporting
 
             Example:
 
-            > 
+            > A PDF report containing charts, graphs, and statistical analyses summarizing our findings
+            
+            > PowerPoint presentation with visualizations illustrating key insights
+            
+            > Excel spreadsheet with tables and graphs presenting data analysis results
 
-##  Scripts 
+## Scripts 
 
-- Source code for use in this project.
-        
-        Example:
+When dealing with large scripts, it's important to maintain clarity and organization to understand what is happening in the code. We can split up the code into the following files:
 
-        > 
+***Important if the genrel script is small and well writen you dont have to split it up. Of curse if its getting hard to overlook what is where happening split it up in the Following Order.***
+
+- **data**: 
+    - Contains scripts for data preparation and manipulation.
+    
+            Example:
+            > Python scripts for downloading the data
+            > Can be a API Webscraping everything that 
+              is related to getting the Data.
+
+- **features**: 
+    - Scripts related to feature engineering and extraction reside here.
+    
+            Example:
+            > Python modules for generating additional 
+              features from raw data.
+    
+- **models**: 
+    - Holds scripts for defining and training machine learning models.
+    
+            Example:
+            > Python classes defining various machine 
+              learning models like SVM, Random Forest, etc., 
+              along with training scripts.
+    
+- **visualization**: 
+    - Scripts for data visualization and result interpretation are stored here.
+    
+            Example:
+            > Jupyter notebooks containing code for generating
+              plots, graphs, and interactive visualizations 
+              to analyze data and model results.
+    
+- **Source code for use in this project**:
+    
+        - Example:
+            > Your main code, such as a .py or .ipynb file.
+            > The script also includes setup instructions 
+              for virtual environments if needed, created using pip, conda, or any other tool.
+
 
 
 
